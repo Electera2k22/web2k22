@@ -9,6 +9,60 @@ html,body{
     width:50%;
     height:100%;
 }
+.animation-text {
+    display: inline-block;
+    position:absolute;
+    top: 50%;
+    left: 41%;
+    z-index: 55;
+    width: 250px;
+    text-align: center;
+    height: 80px;
+  }
+.animation-text p{
+      font-size: 22px;
+      text-shadow: 0 0 2px red;
+      color: rgb(253, 217, 98);
+      margin: 0 auto;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+@media screen and (max-width: 1250px) {
+    .animation-text {
+        display: inline-block;
+        position:absolute;
+        top: 50%;
+        left: 38%;
+        z-index: 55;
+        width: 250px;
+        text-align: center;
+        height: 80px;
+      }
+}
+@media screen and (max-width: 780px) {
+    .animation-text {
+        display: inline-block;
+        position:absolute;
+        top: 50%;
+        left: 34%;
+        z-index: 55;
+        width: 250px;
+        text-align: center;
+        height: 80px;
+      }
+}
+@media screen and (max-width: 625px) {
+    .animation-text {
+        display: inline-block;
+        position:absolute;
+        top: 50%;
+        left: 31%;
+        z-index: 55;
+        width: 250px;
+        text-align: center;
+        height: 80px;
+      }
+}
 
 @media screen and (max-width: 496px) {
     .index-pre-content{
@@ -16,4 +70,14 @@ html,body{
         width: 100%;
         height:90%;
     }
+    .animation-text {
+        display: inline-block;
+        position:absolute;
+        top: 50%;
+        left: 20%;
+        z-index: 55;
+        width: 250px;
+        text-align: center;
+        height: 80px;
+      }
 }
