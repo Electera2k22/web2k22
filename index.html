@@ -17,17 +17,26 @@
     <link rel="stylesheet" href="index.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript">  
-        $(window).ready(function() {  
-            $(".loader").fadeOut(1000);  
-        });
-    </script> 
+    
 </head>
 <body>
-    <div class="loader"></div>
 
     <img class="index-pre-content" src="images/logoname.png"   alt="">
 
-    <div class="lds-ellipsis"><span>COMING SOON</span> <div></div><div></div><div></div><div></div></div>
+    <div class="animation-text">
+        <p class="cs">Coming soon</p>
+        <p class="st">Stay tuned for the update</p>
+    </div>
+
+    <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
 </body>
+<script>
+    $(".lds-ellipsis").hide();
+    $(".st").hide();
+    $(".cs").fadeOut(3000);
+    $(".lds-ellipsis").delay(2000).fadeIn(4000);
+    $(".lds-ellipsis").fadeOut(1000);
+    $(".st").delay(7000).fadeIn(2000)
+
+</script>
 </html>
