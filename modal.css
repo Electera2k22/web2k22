@@ -1,0 +1,140 @@
+body {
+    
+  font-family: 'Exo', sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .popup input[type="text"],
+  .popup input[type="password"],
+  .popup input[type="email"],
+  .popup input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .popup input[type="text"]:focus,
+  .popup input[type="password"]:focus,
+  .popup input[type="email"]:focus,
+  .popup input[type="number"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .clearfix button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .clearfix button:hover {
+    opacity: 1;
+  }
+  
+  .loginbtn {
+    margin-left: 22%;
+    width: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    color: black;
+    overflow: auto;
+    background-color: transparent;
+    padding-top: 50px;
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 2px solid #888;
+    box-shadow: 5px 5px 10px rgb(78, 77, 77);
+    height: 350px;
+    width: 50%;
+    animation: form_animation 0.5s linear;
+  }
+  @keyframes form_animation {
+    0% {
+      transform: skew(45deg, 45deg);
+      transform: scale(0, 0);
+    }
+    50% {
+      transform: skew(23deg, 23deg);
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      transform: skew(0deg, 0deg);
+      transform: scale(1, 1);
+    }
+  }
+  
+  .popup hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .popup .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  .popup .close:hover,
+  .popup .close:focus {
+    color: #ff1100;
+    cursor: pointer;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #login_head,
+  #signup_head {
+    text-align: center;
+  }
+  
+  .popup .reset,
+  .popup .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  .popup .reset {
+    background-color: #f78080;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .popup .reset,
+    .popup .signupbtn,
+    .loginbtn {
+      width: 100%;
+    }
+    .popup-content {
+      width: 80%;
+    }
+  }

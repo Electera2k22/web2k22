@@ -1,0 +1,27 @@
+body {
+    padding-bottom: 20px;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+    font-size: larger;
+    font-family: 'Exo', sans-serif;
+  }
+  
+  .nav-item:hover {
+    transform: translateY(-5px);
+  }
+  nav .logo {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+ 
+  nav .active-tab{
+      font-weight: bold;
+      border-bottom: 2px solid rgb(222, 171, 39);
+  }
+
+  h2,h4{
+    text-shadow: 0 0 2px red;
+      color: rgb(253, 217, 98);
+  }
