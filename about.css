@@ -1,3 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(TESLA.ttf);
+}
+.heading-electera{
+    font-family: myFirstFont;
+    color: rgb(233, 178, 58);
+}
 body{
     background-color: #121212;
     color: white;
