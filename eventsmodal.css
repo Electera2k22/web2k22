@@ -1,0 +1,181 @@
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+ }
+ ::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px grey; 
+   border-radius: 10px;
+ }
+ ::-webkit-scrollbar-thumb {
+   background: grey; 
+   border-radius: 10px;
+ }
+ ::-webkit-scrollbar-thumb:hover {
+   background: #b30000; 
+ }
+body {
+    
+    font-family: 'Exo', sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+    }
+
+    .tab h4 ,.tab h2{
+        text-shadow: none;
+    }
+    .popup h4, .popup h2{
+        color: black;
+        text-shadow: none;
+        text-align: center ;
+        font-weight: 800;
+    }
+    
+    
+    .clearfix button {
+      background-color: #04aa6d;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .clearfix button:hover {
+      opacity: 1;
+    }
+    
+    .loginbtn {
+      margin-left: 22%;
+      width: 50%;
+    }
+    
+    .container {
+      padding: 16px;
+    }
+    
+    .popup {
+      display: none;
+      position: absolute;
+      z-index: 10000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height:100%;
+      color: black;
+      overflow: auto;
+      background-color: transparent;
+      padding-top: 0px;
+    }
+    
+    .popup-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 2px solid #888;
+      box-shadow: 5px 5px 10px rgb(78, 77, 77);
+      height: 80%;
+      width: 80%;
+      overflow-y: auto;
+      animation: form_animation 0.5s linear;
+    }
+    @keyframes form_animation {
+      0% {
+        transform: skew(45deg, 45deg);
+        transform: scale(0, 0);
+      }
+      50% {
+        transform: skew(23deg, 23deg);
+        transform: scale(0.5, 0.5);
+      }
+      100% {
+        transform: skew(0deg, 0deg);
+        transform: scale(1, 1);
+      }
+    }
+    
+    .popup-content img{
+        height: 50%;
+        width: 50%;
+    }
+    .register-part{
+        float: right;
+        margin-right: 5%;
+        height: 50%;
+        width: 40%;
+    }
+
+
+    .popup hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    .popup .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #ff0000;
+    }
+    
+    .popup .close:hover,
+    .popup .close:focus {
+      color: #ff1100;
+      cursor: pointer;
+    }
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    #login_head,
+    #signup_head {
+      text-align: center;
+    }
+    
+    .popup .reset,
+    .popup .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    .popup .reset {
+      background-color: #f78080;
+    }
+    
+    @media screen and (max-width: 500px) {
+      .popup .reset,
+      .popup .signupbtn,
+      .loginbtn {
+        width: 100%;
+      }
+      .popup-content {
+        width: 80%;
+      }
+    }
+
+    @media screen and (max-width: 1250px) {
+        .popup-content img{
+            margin-left: auto;
+            margin-right: auto;
+            height: 70%;
+            width: 100%;
+        }
+        .register-part{
+            margin-top: 15px;
+            float: none;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .popup-content {
+          margin: 10% auto;
+        }
+      }
+
+
+    
