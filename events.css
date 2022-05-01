@@ -68,6 +68,12 @@ body {
   #Artville-card{
     background-image: url("/images/cards/artville.jpg");
   }
+  #TrashtoArt-card{
+    background-image: url("/images/cards/artville.jpg")
+  }
+  #Memetrical-card{
+    background-image: url("/images/cards/artville.jpg")
+  }
   
   .flip-card-back {
     background-color: #121212;
