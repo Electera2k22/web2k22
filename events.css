@@ -77,7 +77,19 @@ body {
   #postera-card{
     background-image: url("/images/cards/postera.jpg");
   }
-
+   #yourmoment-card{
+    background-image: url("images/cards/your\ moment.png");
+  }
+  #workshop1-card{
+    background-image: url("images/cards/");
+  }
+  #workshop2-card{
+    background-image: url();
+  }
+  #workshop3-card{
+    background-image: url("images/cards/workshop3.jpg");
+    background-position: center;
+  }
   .flip-card-back {
     background-color: #121212;
     border: solid 2px rgb(233, 178, 58);
