@@ -63,31 +63,30 @@ body {
   }
 
   #photophactory-card{
-    background-image: url("/images/cards/photo\ phactory.jpg");
+    background-image: url("images/cards/photo\ phactory.jpg");
   }
   #Artville-card{
-    background-image: url("/images/cards/artville.jpg");
+    background-image: url("images/cards/artville.jpg");
   }
   #TrashtoArt-card{
-    background-image: url("/images/cards/TrashtoArt.jpg")
+    background-image: url("images/cards/TrashtoArt.jpg")
   }
   #Memetrical-card{
-    background-image: url("/images/cards/Memetrical.jpg")
+    background-image: url("images/cards/Memetrical.jpg")
   }
-  #postera-card{
-    background-image: url("/images/cards/postera.jpg");
-  }
-   #yourmoment-card{
+  #yourmoment-card{
     background-image: url("images/cards/your\ moment.png");
   }
   #workshop1-card{
-    background-image: url("images/cards/");
+    background-image: url("images/cards/digital\ twin.jpg");
+    background-position: center;
   }
   #workshop2-card{
-    background-image: url();
+    background-image: url("images/cards/batterymanagement.jpg");
+    background-position: center;
   }
   #workshop3-card{
-    background-image: url("images/cards/workshop3.jpg");
+    background-image: url("images/cards/computervision.jpg");
     background-position: center;
   }
   .flip-card-back {
