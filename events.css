@@ -37,20 +37,24 @@ body {
   max-height: 500px;
   overflow-y: auto;
 }
+#side-nav{
+    border: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px;
+    overflow:hidden;
+}
 #side-nav a{
-  color: rgb(161, 161, 161);
-  text-decoration: none;
+    color: rgb(161, 161, 161);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 #side-nav li{
-  float:left;
-  margin-left:10px;
-  font-size:18px;
+    float: left;
 }
-#side-nav .active{
-  border-bottom: 1px solid rgb(233, 178, 58);
-}
-#side-nav li:after{
-  clear:both;
+.active{
+    color: rgb(233, 178, 58);
 }
 
 /* EVENT FLIP CARD */
