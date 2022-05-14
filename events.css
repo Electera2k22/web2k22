@@ -43,9 +43,14 @@ body {
 }
 #side-nav li{
     float:left;
+    margin-left:10px;
+    font-size:18px;
 }
 #side-nav .active{
     border-bottom: 1px solid rgb(233, 178, 58);
+}
+#side-nav li:after{
+    clear:both;
 }
 
   /* EVENT FLIP CARD */
