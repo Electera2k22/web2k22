@@ -110,7 +110,7 @@ body {
   background-image: url("images/cards/your\ moment.png");
 }
 #postera-card{
-  background-image: url("");
+  background-image: url("images/cards/postera.jpg");
   background-position: center;
 }
 #electrathon-card{
@@ -118,7 +118,7 @@ body {
   background-position: center;
 }
 #tekthesis-card{
-  background-image: url("");
+  background-image: url("images/cards/tekthesis.webp");
   background-position: center;
 }
 #workshop1-card{
