@@ -37,7 +37,16 @@ body {
     max-height: 500px;
     overflow-y: auto;
 }
-
+#side-nav a{
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+#side-nav li{
+    float:left;
+}
+#side-nav .active{
+    border-bottom: 1px solid rgb(233, 178, 58);
+}
 
   /* EVENT FLIP CARD */
   .flip-card {
