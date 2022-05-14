@@ -29,6 +29,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="events.css">
+        <link rel="stylesheet" href="demo.css">
         <link rel="stylesheet" href="eventsmodal.css">
         <link rel="stylesheet" href="navbar.css">
 
@@ -47,6 +48,15 @@
             }
           }
         </style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#tabs" ).tabs();
+} );
+</script>
+
     </head>
     
     <body>
@@ -84,658 +94,749 @@
             </div>
           </nav>
          
-          <h2 class="section-header">EVENTS</h2>
+          <h2 class="section-header">EVENTS</h2><br>
 
-          <div class="tab-change ">
-                        
-            <div id="technical" class="tabcontent">
-             <!-- PHOTO PHACTORY -->
-              <!-- flip-card -->
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="photophactory-card" class="flip-card-front">
-                    <p class="event-name">PHOTO PHACTORY</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h5><b>Photo Phactory</b></h5> 
-                    
-                    <p class="event-description">
-                      A photography event <br>
-                      <b>Last date for registration</b><br>14-05-2022 
-                        <br>
-                    <b>registration free</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('photophactory').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
+
+          <!-- ********************************************************************** -->
+        <!-- popup dialogbox -workshop -->
+        <!-- ********************************************************************** -->
   
-              <div id="photophactory" class="popup">
-                <span onclick="document.getElementById('photophactory').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
+        <div id="workshop1" class="popup">
+          <span onclick="document.getElementById('workshop1').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'; " class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
 
-                    <img src="images/poster/photo phactory.jpg" alt="">
+              <img src="images/poster/workshop 1.png" alt="">
 
-                    <div class="register-part">
-                      <h4>Photo Phactory</h4>
-                      <br>
-                      <p style="text-align: center;">Things End but Memories last forever..So we create a platform for those memory makers</p>
-                      <b>Last date for registration:</b>
-                      <p>14-05-2022</p>
-                      <b>Theme:</b>
-                      <p>OPEN</p>
-                      <b>Event Executive</b>
-                      <p>Sriram Prasad
-                        <br>6374541138
-                      </p>
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/hDqVjZJEmL7m4iEX8">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">RULES:</h4>
-                      <ul>
-                        <li>Multiple Entries are Allowed</li>
-                        <li>Editing and Watermark Are Prohibited</li>
-                        <li>Plagiarism is Prohibited</li>
-                        <li>Winners will be Selected based on Likes and Best Photos</li>
-                        <li>E - Certificates Will be Provided for Winners</li>
-                        <li>Everyone Should Send their Responses along with their Name , College Name (If Applicable) , Instagram ID (If Applicable ) and Contact Number</li>
-                      
-                      </ul>
-                      
-
-                    </div>
-                    
-                    <div class="col text-center">
-
-                      <button class="btn btn-danger" onclick="document.getElementById('photophactory').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                    
-                  </div>
+              <div class="register-part">
+                <h4>PROGNOSTIC HEALTH MONITORING OF EQUIPMENTS USING A DIGITAL TWIN</h4>
+                <br>
+                <p style="text-align: center;"></p>
+                <b>Last date for registration:</b>
+                <p>13-05-2022</p>
+                <b>OPEN TO ALL BRANCHES AND ALL COLLEGES</b>
+                <b>Workshop Executive</b>
+                <p>Mohammed Siddique
+                  <br>99446 79003
+                  <br>Preethika T
+                  <br>90254 55264
+                </p>
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href=https://forms.gle/BRxdqfMq6HtqarJb9">
+                    Register
+                  </a>
                 </div>
+                
               </div>
-              <!-- ART-VILLE -->
-              <!-- flip-card -->
-              <div  class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="Artville-card" class="flip-card-front">
-                    <p class="event-name">ART-VILLE</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h5><b>ART-VILLE</b></h5> 
-                    
-                    <p class="event-description">
-                      Art Contest <br>
-                      <b>Last date for registration</b><br>14-05-2022 
-                        <br>
-                    <b>registration free</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('Artville').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
-  
-              <div id="Artville" class="popup">
-                <span onclick="document.getElementById('Artville').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
 
-                    <img src="images/poster/artville.jpg" alt="">
-
-                    <div class="register-part">
-                      <h4>Art-Ville</h4>
-                      <br>
-                      <p style="text-align: center;">The aim of art is not to represent the outward appearance of a thing, but their inward significance.</p>
-                      <b>Last date for registration:</b>
-                      <p>14-05-2022</p>
-                      <b>Theme:</b>
-                      <p>OPEN</p>
-                      <b>Event Executive</b>
-                      <p>Sriram Prasad
-                        <br>6374541138
-                      </p>
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/MNvHXrvZ1unB4TscA">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">RULES:</h4>
-                      <ul>
-                        <li>Only 1 entry is allowed per participant</li>
-                        <li>Send your sketch in document file</li>
-                        <li>Plagiarism is Prohibited</li>
-                        <li>Winners will be Selected based on Likes and Best Photos</li>
-                        <li>E - Certificates Will be Provided for Winners</li>
-                        <li>Participants Should Send your Responses along with your Name , College Name and Contact Number</li>
-                      
-                      </ul>
-                      
-
-                    </div>
-                    
-                    <div class="col text-center">
-
-                      <button class="btn btn-danger" onclick="document.getElementById('Artville').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- TrashtoArt -->
-              <!-- flip-card -->
-              <div  class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="TrashtoArt-card" class="flip-card-front">
-                    <p class="event-name">TRASH TO ART</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h5><b>TRASH TO ART</b></h5> 
-                    
-                    <p class="event-description">
-                      <br>
-                      <b>Last date for registration</b><br>15-05-2022 
-                        <br>
-                    <b>registration free</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('TrashtoArt').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
-              <div id="TrashtoArt" class="popup">
-                <span onclick="document.getElementById('TrashtoArt').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
-            
-                    <img src="images/poster/trashtoart.jpg" alt="">
-            
-                    <div class="register-part">
-                      <h4></h4>
-                      <br>
-                      <p style="text-align: center;">The aim of art is not to represent the outward appearance of a thing ,but their inward significance. we are presenting a perfect platform to showcase the inhrit talent of yours.</p>
-                      <b>Last date for registration:</b>
-                      <p>15-05-2022</p>
-                      <b>Theme:</b>
-                      <p>OPEN</p>
-                      <b>Event Executive</b>
-                      <p>Gokul A
-                        <br>9344667117
-                        <br>Kokila P
-                        <br>8870218254
-                      </p>
-
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/mQNJVabgdquPPYrf8">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-            
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">RULES:</h4>
-                      <ul>
-                        <li>Participants are asked to make art & crafts out of waste.</li>
-                        <li>Plagiarism is prohibited.</li>
-                        <li>Entries should be submitted in image format.</li>
-                        <li>Entries will be uploaded on instagram , and will be rewarded based on likes.</li>
-                        <li>E - Certificates Will be Provided for Winners</li>
-                        
-                      
-                      </ul>
-                                  
-            
-                    </div>
-                                
-                    <div class="col text-center">
-            
-                      <button class="btn btn-danger" onclick="document.getElementById('TrashtoArt').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                                
-                  </div>
-                </div>
-              </div>
-            <!-- MEMETRICAL -->
-            <!-- flip-card -->
-            <div  class="flip-card">
-              <div class="flip-card-inner">
-                <div id="Memetrical-card" class="flip-card-front">
-                  <p class="event-name">MEMETRICAL</p>
-                </div>
-                <div class="flip-card-back">
-                  <h5><b>MEMETRICAL</b></h5> 
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">DETAILS:</h4>
+                <ul>
+                  <li>Date : 14-05-2022</li>
+                  <li>Time : 10.00AM To 12.30PM (Forenoon Session)</li>
+                  <li>E - Certificates Will be Provided for All Winners</li>
                   
-                  <p class="event-description">
-                    Meme Contest <br>
-                    <b>Last date for registration</b><br>15-05-2022 
-                      <br>
-                  <b>registration free</b> </p>
-                  
-                  <div class="event-button btn btn-outline-primary" onclick="document.getElementById('Memetrical').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                  
-                </div>
+                </ul>
+                
+
               </div>
+              
+              <div class="col text-center">
+
+                <button class="btn btn-danger" onclick="document.getElementById('workshop1').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+              
             </div>
-            <!-- popup dialogbox -->
-
-            <div id="Memetrical" class="popup">
-              <span onclick="document.getElementById('Memetrical').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-              <div class="popup-content" >
-                <div class="container">
-
-                  <img src="images/poster/memetrical.png" alt="">
-
-                  <div class="register-part">
-                    <h4>Memetrical</h4>
-                    <br>
-                    <p style="text-align: center;">Sarcasm is the gaiety of erudite and the joy of wisdom. We are presenting a perfect platform to showcase the inherent talent of yours.</p>
-                    <b>Last date for registration:</b>
-                    <p>15-05-2022</p>
-                    <b>Theme:</b>
-                    <p>OPEN</p>
-                    <b>Event Executive</b>
-                    <p>Praveen Raj T
-                      <br>63806 09749
-                      <br>
-                      Dharanya S
-                      <br>77080 83413
-                    </p>
-                    <div class="col text-center">
-                      <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/YUR9T5W5GpKidQjSA">
-                        Register
-                      </a>
-                    </div>
-                    
-                  </div>
-
-                  <div class="event-description">
-                    <br>
-                    <h4 style="text-align: left;">RULES:</h4>
-                    <ul>
-                      <li>Participants are asked to create memes individually.</li>
-                      <li>Maximum number of entries:5.</li>
-                      <li>Plagiarism is Prohibited</li>
-                      <li>Inappropriate and offensive memes are strictly not allowed.</li>
-                      <li>Entries will be uploaded on instagram and rewarded based on likes.</li>
-                      <li>Winners will be provided with e-certificates</li>
-                    
-                    </ul>
-                    
-
-                  </div>
-                  
-                  <div class="col text-center">
-
-                    <button class="btn btn-danger" onclick="document.getElementById('Memetrical').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Yourmoment -->
-              <!-- flip-card -->
-              <div  class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="yourmoment-card" class="flip-card-front">
-                    <p class="event-name">YOUR MOMENT</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h5><b>YOUR MOMENT</b></h5> 
-                    
-                    <p class="event-description">
-                      <br>
-                      <b>Last date for registration</b><br>20-05-2022 
-                        <br>
-                    <b>registration free</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('yourmoment').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
-              <div id="yourmoment" class="popup">
-                <span onclick="document.getElementById('yourmoment').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
-            
-                    <img src="images/poster/yourmoment.jpeg" alt="">
-            
-                    <div class="register-part">
-                      <h4>YOUR MOMENT</h4>
-                      <br>
-                      <p style="text-align: center;">You are braver than you think. 
-                        More talented than you know.
-                        Capable of more than you imagine</p>
-                      <b>Last date for registration:</b>
-                      <p>20-05-2022</p>
-                      <b>Theme:</b>
-                      <p>OPEN</p>
-                      <b>Event Executive</b>
-                      <p>Suman R
-                        <br>9952046215
-                        <br>Subhikshaa R 
-                        <br>8056175536
-                      </p>
-
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/VMK6peZ4vE33QtyDA">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-            
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">RULES:</h4>
-                      <ul>
-                        <li>Only one entry from each category will be accepted.</li>
-                        <li>Multiple talents from other categories are also welcomed.</li>
-                        <li>Submit entries as video of maximum of 3 minutes.</li>
-                        <li>Winners will be selected based on likes and jury's choice.</li>
-                        <li>E-certificates and cash prizes  will be provided to the winners</li>
-                        <li>WINNER - ₹200</li>
-                        <li>RUNNER - ₹150</li>
-                      
-                      </ul>
-                                  
-            
-                    </div>
-                                
-                    <div class="col text-center">
-            
-                      <button class="btn btn-danger" onclick="document.getElementById('yourmoment').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                                
-                  </div>
-                </div>
-              </div>
-           
           </div>
-          <br>
-          <h2 class="section-header">WORKSHOP</h2>
-
-          <div class="tab-change ">
-            
-                        
-            <div id="technical" class="tabcontent">
-             <!-- PHOTO PHACTORY -->
-              <!-- flip-card -->
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="workshop1-card" class="flip-card-front">
-                    <p class="event-name">DIGITAL TWIN</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h6><b>Prognostic Health Monitoring of Equipments using Digital Twin</b></h6> 
-                    
-                    <p class="event-description">
-                      <b>Last date for registration</b><br>13-05-2022 
-                        <br>
-                    <b>registration fee : ₹200 /-</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('workshop1').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
+        </div>
+          
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- popup dialogbox -->
   
-              <div id="workshop1" class="popup">
-                <span onclick="document.getElementById('workshop1').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
+        <div id="workshop2" class="popup">
+          <span onclick="document.getElementById('workshop2').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
 
-                    <img src="images/poster/workshop 1.png" alt="">
+              <img src="images/poster/workshop 2.png" alt="">
 
-                    <div class="register-part">
-                      <h4>PROGNOSTIC HEALTH MONITORING OF EQUIPMENTS USING A DIGITAL TWIN</h4>
-                      <br>
-                      <p style="text-align: center;"></p>
-                      <b>Last date for registration:</b>
-                      <p>13-05-2022</p>
-                      <b>OPEN TO ALL BRANCHES AND ALL COLLEGES</b>
-                      <b>Workshop Executive</b>
-                      <p>Mohammed Siddique
-                        <br>99446 79003
-                        <br>Preethika T
-                        <br>90254 55264
-                      </p>
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href=https://forms.gle/BRxdqfMq6HtqarJb9">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">DETAILS:</h4>
-                      <ul>
-                        <li>Date : 14-05-2022</li>
-                        <li>Time : 10.00AM To 12.30PM (Forenoon Session)</li>
-                        <li>E - Certificates Will be Provided for All Winners</li>
-                        
-                      </ul>
-                      
-
-                    </div>
-                    
-                    <div class="col text-center">
-
-                      <button class="btn btn-danger" onclick="document.getElementById('workshop1').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                    
-                  </div>
+              <div class="register-part">
+                <h4>MODERN TECHNOLOGIES IN BATTERY MANAGEMENT SYSTEM</h4>
+                <br>
+                <p style="text-align: center;"><ul>
+                  <li>Evolution of Battery Management system</li>
+                  <li>Need for Battery Management System </li>
+                </ul></p>
+                <b>Last date for registration:</b>
+                <p>14-05-2022</p>
+                <b>OPEN TO ALL BRANCHES AND COLLEGES</b>
+                
+                <b>Workshop Executive</b>
+                <p>Rahul S J
+                  <br>98424 50223
+                  <br>Karishma R 
+                  <br>63795 31677
+                </p>
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/BRxdqfMq6HtqarJb9">
+                    Register
+                  </a>
                 </div>
+                
               </div>
-              <!-- WORKSHOP2 -->
-              <!-- flip-card -->
-              <div  class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="workshop2-card" class="flip-card-front">
-                    <p class="event-name">BATTERY MANAGEMENT</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h6><b>MODERN TECHNOLOGIES IN BATTERY MANAGEMENT SYSTEM</b></h6> 
-                    
-                    <p class="event-description">
-                    
-                      <b>Last date for registration</b><br>14-05-2022 
-                        <br>
-                    <b>registration fee : ₹200 /-</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('workshop2').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
-  
-              <div id="workshop2" class="popup">
-                <span onclick="document.getElementById('workshop2').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
 
-                    <img src="images/poster/workshop 2.png" alt="">
-
-                    <div class="register-part">
-                      <h4>MODERN TECHNOLOGIES IN BATTERY MANAGEMENT SYSTEM</h4>
-                      <br>
-                      <p style="text-align: center;"><ul>
-                        <li>Evolution of Battery Management system</li>
-                        <li>Need for Battery Management System </li>
-                      </ul></p>
-                      <b>Last date for registration:</b>
-                      <p>14-05-2022</p>
-                      <b>OPEN TO ALL BRANCHES AND COLLEGES</b>
-                      
-                      <b>Workshop Executive</b>
-                      <p>Rahul S J
-                        <br>98424 50223
-                        <br>Karishma R 
-                        <br>63795 31677
-                      </p>
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/BRxdqfMq6HtqarJb9">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">DETAILS:</h4>
-                      <ul>
-                        <li>Date : 15/05/2022</li>
-                        <li>Time : 10.00AM To 12.30PM (Forenoon Session</li>
-                        <li>Plagiarism is Prohibited</li>
-                        <li>E - Certificates Will be Provided for All Participants</li>
-                        
-                      </ul>
-                      
-
-                    </div>
-                    
-                    <div class="col text-center">
-
-                      <button class="btn btn-danger" onclick="document.getElementById('workshop2').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- WORKSHOP3 -->
-              <!-- flip-card -->
-              <div  class="flip-card">
-                <div class="flip-card-inner">
-                  <div id="workshop3-card" class="flip-card-front">
-                    <p class="event-name">COMPUTER VISION</p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h6><b>COMPUTER VISION FOR REAL TIME APPLICATION</b></h6> 
-                    
-                    <p class="event-description">
-                      <br>
-                      <b>Last date for registration</b><br>20-05-2022 
-                        <br>
-                    <b>registration fee : ₹200 /-</b> </p>
-                    
-                    <div class="event-button btn btn-outline-primary" onclick="document.getElementById('workshop3').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <!-- popup dialogbox -->
-              <div id="TrashtoArt" class="popup">
-                <span onclick="document.getElementById('workshop3').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
-                <div class="popup-content" >
-                  <div class="container">
-            
-                    <img src="images/poster/workshop 3.png" alt="">
-            
-                    <div class="register-part">
-                      <h4></h4>
-                      <br>
-                      <p style="text-align: center;"></p>
-                      <b>Last date for registration:</b>
-                      <p>20-05-2022</p>
-                      <b>OPEN TO ALL BRANCHES AND COLLEGES</b>
-                      
-                      <b>Workshop Executive</b>
-                      <p>Rahul SJ
-                        <br>98424 50223
-                        <br>Preethika T
-                        <br>90254 55264
-                      </p>
-
-                      <div class="col text-center">
-                        <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/BRxdqfMq6HtqarJb9">
-                          Register
-                        </a>
-                      </div>
-                      
-                    </div>
-            
-                    <div class="event-description">
-                      <br>
-                      <h4 style="text-align: left;">RULES:</h4>
-                      <ul>
-                        <li>Date : 21/05/2022</li>
-                        <li>Time : 2:00 PM To 4.00 PM (Afternoon Session) </li>
-                        <li>E - Certificates Will be Provided for Winners</li>
-                        
-                      
-                      </ul>
-                                  
-            
-                    </div>
-                                
-                    <div class="col text-center">
-            
-                      <button class="btn btn-danger" onclick="document.getElementById('workshop3').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
-                    </div>
-                                
-                  </div>
-                </div>
-              </div>
-            <!-- MEMETRICAL -->
-            <!-- flip-card -->
-            <div  class="flip-card">
-              <!-- <div class="flip-card-inner">
-                <div id="Memetrical-card" class="flip-card-front">
-                  <p class="event-name">MEMETRICAL</p>
-                </div>
-                <div class="flip-card-back">
-                  <h5><b>MEMETRICAL</b></h5> 
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">DETAILS:</h4>
+                <ul>
+                  <li>Date : 15/05/2022</li>
+                  <li>Time : 10.00AM To 12.30PM (Forenoon Session</li>
+                  <li>Plagiarism is Prohibited</li>
+                  <li>E - Certificates Will be Provided for All Participants</li>
                   
-                  <p class="event-description">
-                    Meme Contest <br>
-                    <b>Last date for registration</b><br>15-05-2022 
-                      <br>
-                  <b>registration free</b> </p>
-                  
-                  <div class="event-button btn btn-outline-primary" onclick="document.getElementById('Memetrical').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
-                  
-                </div>
-              </div> -->
+                </ul>
+                
+
+              </div>
+              
+              <div class="col text-center">
+
+                <button class="btn btn-danger" onclick="document.getElementById('workshop2').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+              
             </div>
-            
-
-                  
-                  
-                  
-                  
-                </div>
-              </div>
-            </div>
-           
           </div>
-          
+        </div>
+        
+        
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- popup dialogbox -->
+        <div id="workshop3" class="popup">
+          <span onclick="document.getElementById('workshop3').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
+      
+              <img src="images/poster/workshop 3.png" alt="">
+      
+              <div class="register-part">
+                <h4></h4>
+                <br>
+                <p style="text-align: center;"></p>
+                <b>Last date for registration:</b>
+                <p>20-05-2022</p>
+                <b>OPEN TO ALL BRANCHES AND COLLEGES</b>
+                
+                <b>Workshop Executive</b>
+                <p>Rahul SJ
+                  <br>98424 50223
+                  <br>Preethika T
+                  <br>90254 55264
+                </p>
+
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/BRxdqfMq6HtqarJb9">
+                    Register
+                  </a>
+                </div>
+                
+              </div>
+      
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">RULES:</h4>
+                <ul>
+                  <li>Date : 21/05/2022</li>
+                  <li>Time : 2:00 PM To 4.00 PM (Afternoon Session) </li>
+                  <li>E - Certificates Will be Provided for Winners</li>
+                  
+                
+                </ul>
+                            
+      
+              </div>
+                          
+              <div class="col text-center">
+      
+                <button class="btn btn-danger" onclick="document.getElementById('workshop3').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+                          
+            </div>
+          </div>
+        </div>
+        
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        
+        <!-- ********************************************************************** -->
+        <!-- popup dialogbox -workshop -->
+        <!-- ********************************************************************** -->
+        
+        <!-- popup dialogbox -->
   
-          
-          
-          
+        <div id="photophactory" class="popup">
+          <span onclick="document.getElementById('photophactory').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
+
+              <img src="images/poster/photo phactory.jpg" alt="">
+
+              <div class="register-part">
+                <h4>Photo Phactory</h4>
+                <br>
+                <p style="text-align: center;">Things End but Memories last forever..So we create a platform for those memory makers</p>
+                <b>Last date for registration:</b>
+                <p>14-05-2022</p>
+                <b>Theme:</b>
+                <p>OPEN</p>
+                <b>Event Executive</b>
+                <p>Sriram Prasad
+                  <br>6374541138
+                </p>
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/hDqVjZJEmL7m4iEX8">
+                    Register
+                  </a>
+                </div>
+                
+              </div>
+
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">RULES:</h4>
+                <ul>
+                  <li>Multiple Entries are Allowed</li>
+                  <li>Editing and Watermark Are Prohibited</li>
+                  <li>Plagiarism is Prohibited</li>
+                  <li>Winners will be Selected based on Likes and Best Photos</li>
+                  <li>E - Certificates Will be Provided for Winners</li>
+                  <li>Everyone Should Send their Responses along with their Name , College Name (If Applicable) , Instagram ID (If Applicable ) and Contact Number</li>
+                
+                </ul>
+                
+
+              </div>
+              
+              <div class="col text-center">
+
+                <button class="btn btn-danger" onclick="document.getElementById('photophactory').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- popup dialogbox -->
+  
+        <div id="Artville" class="popup">
+          <span onclick="document.getElementById('Artville').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
+
+              <img src="images/poster/artville.jpg" alt="">
+
+              <div class="register-part">
+                <h4>Art-Ville</h4>
+                <br>
+                <p style="text-align: center;">The aim of art is not to represent the outward appearance of a thing, but their inward significance.</p>
+                <b>Last date for registration:</b>
+                <p>14-05-2022</p>
+                <b>Theme:</b>
+                <p>OPEN</p>
+                <b>Event Executive</b>
+                <p>Sriram Prasad
+                  <br>6374541138
+                </p>
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/MNvHXrvZ1unB4TscA">
+                    Register
+                  </a>
+                </div>
+                
+              </div>
+
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">RULES:</h4>
+                <ul>
+                  <li>Only 1 entry is allowed per participant</li>
+                  <li>Send your sketch in document file</li>
+                  <li>Plagiarism is Prohibited</li>
+                  <li>Winners will be Selected based on Likes and Best Photos</li>
+                  <li>E - Certificates Will be Provided for Winners</li>
+                  <li>Participants Should Send your Responses along with your Name , College Name and Contact Number</li>
+                
+                </ul>
+                
+
+              </div>
+              
+              <div class="col text-center">
+
+                <button class="btn btn-danger" onclick="document.getElementById('Artville').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- popup dialogbox -->
+        <div id="TrashtoArt" class="popup">
+          <span onclick="document.getElementById('TrashtoArt').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
+      
+              <img src="images/poster/trashtoart.jpg" alt="">
+      
+              <div class="register-part">
+                <h4></h4>
+                <br>
+                <p style="text-align: center;">The aim of art is not to represent the outward appearance of a thing ,but their inward significance. we are presenting a perfect platform to showcase the inhrit talent of yours.</p>
+                <b>Last date for registration:</b>
+                <p>15-05-2022</p>
+                <b>Theme:</b>
+                <p>OPEN</p>
+                <b>Event Executive</b>
+                <p>Gokul A
+                  <br>9344667117
+                  <br>Kokila P
+                  <br>8870218254
+                </p>
+
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/mQNJVabgdquPPYrf8">
+                    Register
+                  </a>
+                </div>
+                
+              </div>
+      
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">RULES:</h4>
+                <ul>
+                  <li>Participants are asked to make art & crafts out of waste.</li>
+                  <li>Plagiarism is prohibited.</li>
+                  <li>Entries should be submitted in image format.</li>
+                  <li>Entries will be uploaded on instagram , and will be rewarded based on likes.</li>
+                  <li>E - Certificates Will be Provided for Winners</li>
+                  
+                
+                </ul>
+                            
+      
+              </div>
+                          
+              <div class="col text-center">
+      
+                <button class="btn btn-danger" onclick="document.getElementById('TrashtoArt').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+                          
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- popup dialogbox -->
+
+        <div id="Memetrical" class="popup">
+          <span onclick="document.getElementById('Memetrical').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
+
+              <img src="images/poster/memetrical.png" alt="">
+
+              <div class="register-part">
+                <h4>Memetrical</h4>
+                <br>
+                <p style="text-align: center;">Sarcasm is the gaiety of erudite and the joy of wisdom. We are presenting a perfect platform to showcase the inherent talent of yours.</p>
+                <b>Last date for registration:</b>
+                <p>15-05-2022</p>
+                <b>Theme:</b>
+                <p>OPEN</p>
+                <b>Event Executive</b>
+                <p>Praveen Raj T
+                  <br>63806 09749
+                  <br>
+                  Dharanya S
+                  <br>77080 83413
+                </p>
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/YUR9T5W5GpKidQjSA">
+                    Register
+                  </a>
+                </div>
+                
+              </div>
+
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">RULES:</h4>
+                <ul>
+                  <li>Participants are asked to create memes individually.</li>
+                  <li>Maximum number of entries:5.</li>
+                  <li>Plagiarism is Prohibited</li>
+                  <li>Inappropriate and offensive memes are strictly not allowed.</li>
+                  <li>Entries will be uploaded on instagram and rewarded based on likes.</li>
+                  <li>Winners will be provided with e-certificates</li>
+                
+                </ul>
+                
+
+              </div>
+              
+              <div class="col text-center">
+
+                <button class="btn btn-danger" onclick="document.getElementById('Memetrical').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- popup dialogbox -->
+        <div id="yourmoment" class="popup">
+          <span onclick="document.getElementById('yourmoment').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'" class="close" title="Close popup">&times;</span>
+          <div class="popup-content" >
+            <div class="container">
+      
+              <img src="images/poster/yourmoment.jpeg" alt="">
+      
+              <div class="register-part">
+                <h4>YOUR MOMENT</h4>
+                <br>
+                <p style="text-align: center;">You are braver than you think. 
+                  More talented than you know.
+                  Capable of more than you imagine</p>
+                <b>Last date for registration:</b>
+                <p>20-05-2022</p>
+                <b>Theme:</b>
+                <p>OPEN</p>
+                <b>Event Executive</b>
+                <p>Suman R
+                  <br>9952046215
+                  <br>Subhikshaa R 
+                  <br>8056175536
+                </p>
+
+                <div class="col text-center">
+                  <a class="btn btn-outline-success " target="_blank" href="https://forms.gle/VMK6peZ4vE33QtyDA">
+                    Register
+                  </a>
+                </div>
+                
+              </div>
+      
+              <div class="event-description">
+                <br>
+                <h4 style="text-align: left;">RULES:</h4>
+                <ul>
+                  <li>Only one entry from each category will be accepted.</li>
+                  <li>Multiple talents from other categories are also welcomed.</li>
+                  <li>Submit entries as video of maximum of 3 minutes.</li>
+                  <li>Winners will be selected based on likes and jury's choice.</li>
+                  <li>E-certificates and cash prizes  will be provided to the winners</li>
+                  <li>WINNER - ₹200</li>
+                  <li>RUNNER - ₹150</li>
+                
+                </ul>
+                            
+      
+              </div>
+                          
+              <div class="col text-center">
+      
+                <button class="btn btn-danger" onclick="document.getElementById('yourmoment').style.display='none';document.getElementById('web_content').style.filter='blur(0px)'">Close</button>
+              </div>
+                          
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- ----------------------------------------------------------------------------- -->
+
+
+
+          <div id="tabs" > 
+            <ul id="side-nav">
+                <li><a class="active" href="#workshop">Workshop</a></li>
+                <li><a href="#non-technical">Events</a></li>
+            </ul>
+
+
+        <!-- ********************************************************************** -->
+        <!-- workshop -->
+        <!-- ********************************************************************** -->
+
+            
+                <div id="workshop">
+                   
+                  <div class="tab-change ">
+                    <div id="technical" class="tabcontent">
+                      
+
+                      <!-- flip-card -->
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="workshop1-card" class="flip-card-front">
+                            <p class="event-name">DIGITAL TWIN</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6><b>Prognostic Health Monitoring of Equipments using Digital Twin</b></h6> 
+                            
+                            <p class="event-description">
+                              <b>Last date for registration</b><br>13-05-2022 
+                                <br>
+                            <b>registration fee : ₹200 /-</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('workshop1').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)';document.getElementsByTagName('html').scrollTop = 0">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <!-- -------------------------------------------------------------- -->
+                      
+                      <!-- flip-card -->
+                      <div  class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="workshop2-card" class="flip-card-front">
+                            <p class="event-name">BATTERY MANAGEMENT</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6><b>MODERN TECHNOLOGIES IN BATTERY MANAGEMENT SYSTEM</b></h6> 
+                            
+                            <p class="event-description">
+                            
+                              <b>Last date for registration</b><br>14-05-2022 
+                                <br>
+                            <b>registration fee : ₹200 /-</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('workshop2').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+                      <!-- flip-card -->
+                      <div  class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="workshop3-card" class="flip-card-front">
+                            <p class="event-name">COMPUTER VISION</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6><b>COMPUTER VISION FOR REAL TIME APPLICATION</b></h6> 
+                            
+                            <p class="event-description">
+                              <br>
+                              <b>Last date for registration</b><br>20-05-2022 
+                                <br>
+                            <b>registration fee : ₹200 /-</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('workshop3').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- -------------------------------------------------------------- -->
+
+                      
+                      
+
+
+                    </div>
+                  </div>
+
+
+        <!-- ********************************************************************** -->
+        <!-- Events -->
+        <!-- ********************************************************************** -->
+
+                </div>
+
+                <div id="non-technical">
+                  
+                  
+                  <div class="tab-change ">
+                    <div id="technical" class="tabcontent">
+
+                       <!-- flip-card -->
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="photophactory-card" class="flip-card-front">
+                            <p class="event-name">PHOTO PHACTORY</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h5><b>Photo Phactory</b></h5> 
+                            
+                            <p class="event-description">
+                              A photography event <br>
+                              <b>Last date for registration</b><br>14-05-2022 
+                                <br>
+                            <b>registration free</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('photophactory').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+                       <!-- flip-card -->
+                      <div  class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="Artville-card" class="flip-card-front">
+                            <p class="event-name">ART-VILLE</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h5><b>ART-VILLE</b></h5> 
+                            
+                            <p class="event-description">
+                              Art Contest <br>
+                              <b>Last date for registration</b><br>14-05-2022 
+                                <br>
+                            <b>registration free</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('Artville').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+                       <!-- flip-card -->
+                      <div  class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="TrashtoArt-card" class="flip-card-front">
+                            <p class="event-name">TRASH TO ART</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h5><b>TRASH TO ART</b></h5> 
+                            
+                            <p class="event-description">
+                              <br>
+                              <b>Last date for registration</b><br>15-05-2022 
+                                <br>
+                            <b>registration free</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('TrashtoArt').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+                      <!-- flip-card -->
+                      <div  class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="Memetrical-card" class="flip-card-front">
+                            <p class="event-name">MEMETRICAL</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h5><b>MEMETRICAL</b></h5> 
+                            
+                            <p class="event-description">
+                              Meme Contest <br>
+                              <b>Last date for registration</b><br>15-05-2022 
+                                <br>
+                            <b>registration free</b> </p>
+                            
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('Memetrical').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+                      <!-- flip-card -->
+                      <div  class="flip-card">
+                        <div class="flip-card-inner">
+                          <div id="yourmoment-card" class="flip-card-front">
+                            <p class="event-name">YOUR MOMENT</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h5><b>YOUR MOMENT</b></h5> 
+                            
+                            <p class="event-description">
+                              <br>
+                              <b>Last date for registration</b><br>20-05-2022 
+                                <br>
+                            <b>registration free</b> </p>
+
+                            <div class="event-button btn btn-outline-primary" onclick="document.getElementById('yourmoment').style.display='block';document.getElementsByTagName('body').style.filter='blur(8px)'">View Details</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+                      
+                      <!-- -------------------------------------------------------------- -->
+                      
+
+
+
+                    </div>
+                  </div>
+
+
+                </div>
+            
+        </div>
+
+
+
+        <footer style="color:rgb(161, 161, 161); margin-top: 50px; text-align: center;">
+          <hr>
+
+          <div style="padding-bottom: 5px;">
+            <a href="https://www.instagram.com/elect_era_2k22/?igshid=YmMyMTA2M2Y=" target="_blank" style="color:rgb(161, 161, 161);text-decoration: none ;margin-right: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+            </a>
+
+            <a  href="https://twitter.com/ELECT_ERA_2k22?t=XvJuIw3d0Aysp6DBsomtnA&s=08" target="_blank" style="color:rgb(161, 161, 161);text-decoration: none;margin-right: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+            </a>
+
+            <a  href="https://www.youtube.com/channel/UC8s9MrUOm-LzFU9qvD2gHJA" target="_blank" style="color:rgb(161, 161, 161);text-decoration: none;margin-right: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+              </svg>
+            </a>
+          </div>
+
+          © Electera2k22
+        </footer>
+        
+
     </body>
 </html>
