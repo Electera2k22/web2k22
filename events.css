@@ -56,7 +56,8 @@ body {
     float: left;
 }
 .active{
-    color: rgb(233, 178, 58);
+  text-decoration: underline;
+    text-decoration-color: rgb(233, 178, 58);
 }
 
 /* EVENT FLIP CARD */
